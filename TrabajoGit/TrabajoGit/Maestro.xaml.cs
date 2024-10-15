@@ -1,3 +1,6 @@
+using Android.Telecom;
+using TrabajoGit.Pages;
+
 namespace TrabajoGit;
 
 public partial class Maestro : ContentPage
@@ -16,4 +19,14 @@ public partial class Maestro : ContentPage
     {
         App.FlyoutPage.IsPresented = false;
     }
+
+    private void GoToPaisesPage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Paises());
+
+        OcultarDetalles();
+    }
+
+
 }
