@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 using Android.Telecom;
+=======
+>>>>>>> 17c51aa3f6b48100008978a92b0dc1bf3b9144e6
 using TrabajoGit.Pages;
 
 namespace TrabajoGit;
@@ -29,4 +32,11 @@ public partial class Maestro : ContentPage
     }
 
 
+    private void GoToCafePage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Cafe());
+
+        OcultarDetalles();
+    }
 }

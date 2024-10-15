@@ -10,5 +10,16 @@
        Clicked="GoToPaisesPage"
        Margin="20,10"/>
     </VerticalStackLayout>
+    <ScrollView>
+
+        <VerticalStackLayout >
+          
+            <Button Text="Datos curiosos cafe"
+          Clicked="GoToCafePage"
+          Margin="20,10"
+             />
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
