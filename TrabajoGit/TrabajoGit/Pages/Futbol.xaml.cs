@@ -1,4 +1,4 @@
-namespace Act_2_Real.Pages;
+namespace TrabajoGit.Pages;
 
 public partial class Futbol : ContentPage
 {
