@@ -3,5 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrabajoGit.Maestro"
              Title="Maestro">
-  
+    <ScrollView>
+
+        <VerticalStackLayout >
+            
+            <Label Text="CURIOSIDADES"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Navy"/>
+
+            <Image Source="jorge.png"/>
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
+            </Button>
+
+            <Button Text="Futbol"
+                    Clicked="Futbol_Clicked"
+                    Margin="20,10">
+            </Button>
+            
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
