@@ -1,3 +1,5 @@
+using TrabajoGit.Pages;
+
 namespace TrabajoGit;
 
 public partial class Maestro : ContentPage
@@ -15,5 +17,13 @@ public partial class Maestro : ContentPage
     public static void OcultarDetalles()
     {
         App.FlyoutPage.IsPresented = false;
+    }
+
+    private void GoToCafePage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Cafe());
+
+        OcultarDetalles();
     }
 }
